@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_notice" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .ico-notice-path{fill:#777}
+        </style>
+    </defs>
+    <g id="그룹_2423" transform="translate(3.999 4)">
+        <path id="패스_991" d="M1634 63a12 12 0 1 0 12 12 12 12 0 0 0-12-12zm0 22.286A10.286 10.286 0 1 1 1644.286 75 10.3 10.3 0 0 1 1634 85.286z" class="ico-notice-path" transform="translate(-1622 -63)"/>
+        <path id="패스_992" d="M1635.517 68a1.017 1.017 0 0 0-1.017 1.017V75.8a1.017 1.017 0 0 0 2.034 0v-6.78a1.017 1.017 0 0 0-1.017-1.02z" class="ico-notice-path" transform="translate(-1623.517 -62.056)"/>
+        <circle id="타원_314" cx="1.017" cy="1.017" r="1.017" class="ico-notice-path" transform="translate(10.983 15.976)"/>
+    </g>
+</svg>

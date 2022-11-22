@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_soundcloud" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <style>
+            .ico-soundcloud-path{fill:#fff}
+        </style>
+    </defs>
+    <g id="_013-soundcloud" transform="translate(-0.066 -118.482)">
+        <path id="패스_964" d="M248.823 138.408a3.837 3.837 0 0 0-5.652-3.074 7.052 7.052 0 0 0-9.895-6.253.518.518 0 0 0-.307.474v12.408a.521.521 0 0 0 .522.519H245a3.816 3.816 0 0 0 3.823-4.074z" class="ico-soundcloud-path" transform="translate(-216.266)"/>
+        <path id="패스_965" d="M212.588 139.431a.524.524 0 0 0-.526.522v12.133a.526.526 0 0 0 1.052 0v-12.133a.524.524 0 0 0-.526-.522z" class="ico-soundcloud-path" transform="translate(-197.069 -10.141)"/>
+        <path id="패스_967" d="M165.463 165.033a.526.526 0 0 0-.526.526v10.325a.526.526 0 1 0 1.052 0v-10.325a.526.526 0 0 0-.526-.526z" class="ico-soundcloud-path" transform="translate(-151.683 -33.941)"/>
+        <path id="패스_968" d="M141.9 154.348a.524.524 0 0 0-.526.522v11.03a.526.526 0 0 0 1.052 0v-11.03a.524.524 0 0 0-.526-.522z" class="ico-soundcloud-path" transform="translate(-129.858 -23.955)"/>
+        <path id="패스_969" d="M118.338 162.027a.526.526 0 0 0-.526.526v9.975a.526.526 0 1 0 1.052 0v-9.975a.526.526 0 0 0-.526-.526z" class="ico-soundcloud-path" transform="translate(-108.034 -30.586)"/>
+        <path id="패스_971" d="M71.214 203.32a.526.526 0 0 0-.526.526v7.5a.526.526 0 0 0 1.052 0v-7.5a.526.526 0 0 0-.526-.526z" class="ico-soundcloud-path" transform="translate(-64.382 -69.4)"/>
+        <path id="패스_972" d="M47.651 214.9a.526.526 0 0 0-.526.526v6.642a.526.526 0 0 0 1.052 0v-6.642a.526.526 0 0 0-.526-.526z" class="ico-soundcloud-path" transform="translate(-39.081 -80.121)"/>
+        <path id="패스_973" d="M24.089 217.551a.526.526 0 0 0-.526.526v5.694a.526.526 0 1 0 1.052 0v-5.694a.526.526 0 0 0-.526-.526z" class="ico-soundcloud-path" transform="translate(-18.997 -82.451)"/>
+    </g>
+</svg>

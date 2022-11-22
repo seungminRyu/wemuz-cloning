@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <g data-name="ico-back #555">
+        <path transform="rotate(-90 14 14)" style="fill:transparent" d="M0 0h28v28H0z"/>
+        <path d="m0 8 7.959-8L16 8" transform="rotate(-90 15 7)" style="fill:none;stroke:#555;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.3px"/>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.414" height="28.828" viewBox="0 0 18.414 28.828">
+    <defs>
+        <filter id="a" x="0" y="0" width="18.414" height="28.828" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="1" result="blur"/>
+            <feFlood flood-color="#333" flood-opacity=".6"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g style="filter:url(#a)">
+        <path data-name="ico_back 20" d="m0 0 9.949 10L20 0" transform="rotate(90 4.795 9.205)" style="fill:none;stroke:#ccc;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px"/>
+    </g>
+</svg>

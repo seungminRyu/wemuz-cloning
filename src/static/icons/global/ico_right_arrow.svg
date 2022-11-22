@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<style>.ico-right-arrow-path{stroke:#785ffa;}</style>
+    <g fill="none" opacity="0.88">
+        <path d="M0 0H28V28H0z" transform="translate(0.475 28.005) rotate(-90) translate(0.005 -0.475)"/>
+        <path class="ico-right-arrow-path" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" d="M0 0l7 7.033L14.067 0" transform="translate(0.475 28.005) rotate(-90) translate(6.931 10.662)"/>
+    </g>
+</svg>

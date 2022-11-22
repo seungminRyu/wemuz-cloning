@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#666;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.4px}
+        </style>
+    </defs>
+    <g id="ico_copyLink" transform="translate(-4 -4)">
+        <path id="패스_1020" data-name="패스 1020" class="cls-2" d="M15 12.9a4.5 4.5 0 0 0 6.786.486l2.7-2.7a4.5 4.5 0 1 0-6.363-6.363l-1.548 1.542" transform="translate(1.195 5.992)"/>
+        <path id="패스_1021" data-name="패스 1021" class="cls-2" d="M13.8 15.3a4.5 4.5 0 0 0-6.786-.486l-2.7 2.7a4.5 4.5 0 1 0 6.363 6.363l1.538-1.539" transform="translate(6.008 1.808)"/>
+    </g>
+</svg>

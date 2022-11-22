@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <style>.ico-photo-prev-2-path{stroke:#aaa;stroke-linecap:round;stroke-linejoin:round;stroke-width:2.5px;fill:none}</style>
+    <g data-name="ic-back 40">
+        <path style="fill:none" d="M0 0h40v40H0z" transform="rotate(-90 20 20)"/>
+        <path class="ico-photo-prev-2-path" d="M0 11.56 11.5 0l11.619 11.56" transform="rotate(-90 22.394 9.183)" />
+    </g>
+</svg>

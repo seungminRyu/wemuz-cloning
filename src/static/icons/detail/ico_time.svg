@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <defs>
+        <style>
+            .cls-2{fill:#555}
+        </style>
+    </defs>
+    <g id="ic-공연진행시간" transform="translate(0 -64)">
+        <path id="ic_area" transform="translate(0 64)" style="fill:none" d="M0 0h60v60H0z"/>
+        <g id="그룹_2512" data-name="그룹 2512" transform="translate(5.02 69.02)">
+            <path id="패스_1004" data-name="패스 1004" class="cls-2" d="M29 68.016A24.98 24.98 0 1 0 53.976 93 25.007 25.007 0 0 0 29 68.016zm0 46.835A21.855 21.855 0 1 1 50.851 93 21.879 21.879 0 0 1 29 114.851z" transform="translate(-4.016 -68.016)"/>
+            <path id="패스_1005" data-name="패스 1005" class="cls-2" d="M26.574 74h-.009a1.562 1.562 0 0 0-1.554 1.571l.083 14.989-10.961 5.521a1.562 1.562 0 1 0 1.406 2.79l11.826-5.956a1.562 1.562 0 0 0 .859-1.4l-.088-15.958A1.562 1.562 0 0 0 26.574 74z" transform="translate(-1.702 -66.52)"/>
+        </g>
+    </g>
+</svg>

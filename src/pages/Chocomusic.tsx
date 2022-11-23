@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styled from "styled-components";
 import ChocomusicIntroTextSection1 from "../components/chocomusic/ChocomusicIntroTextSection1";
 import ChocomusicIntroTextSection2 from "../components/chocomusic/ChocomusicIntroTextSection2";
@@ -26,6 +25,7 @@ function Chocomusic() {
 }
 
 const Block = styled.div`
+    position: relative;
     height: 100%;
     background-color: ${palette.purple5};
     overflow: scroll;
@@ -33,8 +33,8 @@ const Block = styled.div`
 
 const StateSwitcher = styled.div`
     position: fixed;
-    bottom: 30px;
-    left: 30px;
+    top: 100px;
+    left: 20px;
     width: 100%;
 `;
 

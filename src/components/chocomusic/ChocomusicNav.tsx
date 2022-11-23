@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import media from "../../lib/styles/media";
+import palette from "../../lib/styles/palette";
 
 import { ReactComponent as ChocomusicLogo } from "../../static/imgs/global/img_chocomusic_logo.svg";
 
@@ -9,14 +10,16 @@ function ChocomusicNav(props: ChocomusicNavProp) {
     return (
         <Block>
             <Inner>
-                <StyledChocomusicLogo />
+                <a href={"/chocomusic"}>
+                    <StyledChocomusicLogo />
+                </a>
             </Inner>
         </Block>
     );
 }
 
 const Block = styled.nav`
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     display: flex;
@@ -26,6 +29,7 @@ const Block = styled.nav`
 
     ${media.mobile} {
         height: 60px;
+        background-color: ${palette.white0};
     }
 `;
 
@@ -44,6 +48,10 @@ const StyledChocomusicLogo = styled(ChocomusicLogo)`
     ${media.mobile} {
         width: 142px;
         height: 32px;
+
+        path {
+            fill: ${palette.orange};
+        }
     }
 `;
 

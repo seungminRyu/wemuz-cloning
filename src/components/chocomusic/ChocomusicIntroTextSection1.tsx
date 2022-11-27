@@ -3,7 +3,7 @@ import media from "../../lib/styles/media";
 import palette from "../../lib/styles/palette";
 import IntroImg from "../../static/imgs/chocomusic/IntroText1.png";
 import IntroImg2 from "../../static/imgs/chocomusic/IntroText2.png";
-import IntroMob from "../../static/imgs/chocomusic/IntroMobile.png";
+import IntroMob from "../../static/imgs/chocomusic/IntroMobile1.png";
 import IntroMob2 from "../../static/imgs/chocomusic/IntroMobile2.png";
 
 
@@ -37,11 +37,12 @@ function ChocomusicIntroTextSection1(props: ChocomusicIntroTextSection1Prop) {
 const Block = styled.section<{ active: boolean }>`
     position: relative;
     height: 100%;
-    background-size:contain;
+    background-size: contain;
     background: ${({ active }) =>
         active ? `url(${IntroImg2})` : palette.white0};
     transition: background-color 0.2s;
     background-size: cover;
+    background-position: center;
     ${media.mobile} {
         background-image: ${({active}) =>
         active ? `url(${IntroMob2})` : ''};
@@ -101,7 +102,7 @@ const Footer = styled.div<{palette:any}>`
     bottom: 0px;
     ${media.mobile}{ 
         flex-direction: column;
-        height: 300px;
+        height: 250px;
     }
 `
 

@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import media from "../../lib/styles/media";
 import palette from "../../lib/styles/palette";
-import introimg1 from "../../static/imgs/chocomusic/IntroText1.png";
-import introimg2 from "../../static/imgs/chocomusic/IntroText2.png";
-import intromobimg1 from "../../static/imgs/chocomusic/IntroMobile1.png";
-import intromobimg2 from "../../static/imgs/chocomusic/IntroMobile2.png";
+import introimg1 from "../../static/imgs/chocomusic/introtextimg1.png";
+import introimg2 from "../../static/imgs/chocomusic/introtextimg2.png";
+import intromobimg1 from "../../static/imgs/chocomusic/intromobileimg1.png";
+import intromobimg2 from "../../static/imgs/chocomusic/intromobileimg2.png";
 
 
 export type ChocomusicIntroTextSection1Prop = {

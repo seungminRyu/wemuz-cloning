@@ -1,8 +1,11 @@
 import styled from "styled-components";
 import ChocomusicIntroTextSection1 from "../components/chocomusic/ChocomusicIntroTextSection1";
 import ChocomusicIntroTextSection2 from "../components/chocomusic/ChocomusicIntroTextSection2";
+import ChocomusicIntroTextSection3 from "../components/chocomusic/ChocomusicIntroTextSection3";
 import ChocomusicIntroVideoSection from "../components/chocomusic/ChocomusicIntroVideoSection";
+import ChocomusicJobs from "../components/chocomusic/ChocomusicJobs";
 import ChocomusicNav from "../components/chocomusic/ChocomusicNav";
+import ChocomusicPartners from "../components/chocomusic/ChocomusicPartners";
 import useToggle from "../lib/hooks/useToggle";
 import palette from "../lib/styles/palette";
 
@@ -15,6 +18,9 @@ function Chocomusic() {
             <ChocomusicIntroVideoSection />
             <ChocomusicIntroTextSection1 active={sectionActive} />
             <ChocomusicIntroTextSection2 active={sectionActive} />
+            <ChocomusicIntroTextSection3 active={sectionActive} />
+            <ChocomusicJobs active={sectionActive} />
+            <ChocomusicPartners active={sectionActive} />
             <StateSwitcher>
                 <SwitchBtn onClick={toggleSectionActive}>
                     Switch State

@@ -25,8 +25,8 @@ function ChocomusicIntroTextSection2(props: ChocomusicIntroTextSection2Prop) {
                 {active && <Footer>
                         <Box1></Box1>
                         <User><Title2>위뮤즈 가입자 수</Title2><Text2>500명</Text2></User>
-                        <With><Title2>함께한 공연 수</Title2><Text2>500회</Text2></With>
-                        <Like><Title2>평균 공연 만족도</Title2><Text2>100%</Text2></Like>
+                        <With><Title2>협업 공간</Title2><Text2>500개</Text2></With>
+                        <Like><Title2>공간 일매출 증가</Title2><Text2>500%</Text2></Like>
                         <Box2></Box2>
                     </Footer>
                 }

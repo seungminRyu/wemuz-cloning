@@ -3,8 +3,8 @@ import media from "../../lib/styles/media";
 import palette from "../../lib/styles/palette";
 import introImg1 from "../../static/imgs/chocomusic/introText1.png";
 import introImg2 from "../../static/imgs/chocomusic/introText2.png";
-import introMob1 from "../../static/imgs/chocomusic/introMob1.png";
-import introMob2 from "../../static/imgs/chocomusic/introMob2.png";
+import introMobImg1 from "../../static/imgs/chocomusic/introMob1.png";
+import introMobImg2 from "../../static/imgs/chocomusic/introMob2.png";
 
 export type ChocomusicIntroTextSection2Prop = {
     active: boolean;
@@ -28,16 +28,16 @@ function ChocomusicIntroTextSection2(props: ChocomusicIntroTextSection2Prop) {
                     <Footer>
                         <Box1></Box1>
                         <User>
-                            <Title2>위뮤즈 가입자 수</Title2>
+                            <Title2>뮤지션 가입자 수</Title2>
                             <Text2>500명</Text2>
                         </User>
                         <With>
-                            <Title2>함께한 공연 수</Title2>
-                            <Text2>500회</Text2>
+                            <Title2>협업 공간</Title2>
+                            <Text2>500개</Text2>
                         </With>
                         <Like>
-                            <Title2>평균 공연 만족도</Title2>
-                            <Text2>100%</Text2>
+                            <Title2>공간 일매출 증가</Title2>
+                            <Text2>500%</Text2>
                         </Like>
                         <Box2></Box2>
                     </Footer>
@@ -58,7 +58,7 @@ const Block = styled.section<{ active: boolean }>`
     
     ${media.mobile} {
         background-image: ${({ active }) =>
-            active ? `url(${introMob2})` : ""};
+            active ? `url(${introMobImg2})` : ""};
 `;
 
 const IntroText = styled.div<{ active: boolean }>`
@@ -100,7 +100,7 @@ const Img = styled.div<{ active: boolean }>`
 
     ${media.mobile} {
         background-image: ${({ active }) =>
-            active ? "" : `url(${introMob1})`};
+            active ? "" : `url(${introMobImg1})`};
     }
 `;
 

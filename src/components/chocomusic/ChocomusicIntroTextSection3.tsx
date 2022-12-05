@@ -45,35 +45,33 @@ function ChocomusicIntroTextSection3(props: ChocomusicIntroTextSection3Prop) {
                 </Top>
                 <Bottom>
                     <Img>
-                        <Line1>
-                            <ImgBox imgURL={img01}></ImgBox>
-                            <ImgBox imgURL={img02}></ImgBox>
-                            <ImgBox imgURL={img03}></ImgBox>
-                            <ImgBox imgURL={img04}></ImgBox>
-                            <ImgBox imgURL={img05}></ImgBox>
-                            <ImgBox imgURL={img06}></ImgBox>
-                            <ImgBox imgURL={img07}></ImgBox>
-                            <ImgBox imgURL={img08}></ImgBox>
-                            <ImgBox imgURL={img09}></ImgBox>
-                            <ImgBox imgURL={img10}></ImgBox>
-                            <ImgBox imgURL={img11}></ImgBox>
-                            <ImgBox imgURL={img12}></ImgBox>
-                        </Line1>
-                        <Line2>
-                            <ImgBox imgURL={img13}></ImgBox>
-                            <ImgBox imgURL={img14}></ImgBox>
-                            <ImgBox imgURL={img15}></ImgBox>
-                            <ImgBox imgURL={img16}></ImgBox>
-                            <ImgBox imgURL={img17}></ImgBox>
-                            <ImgBox imgURL={img18}></ImgBox>
-                            <ImgBox imgURL={img19}></ImgBox>
-                            <ImgBox imgURL={img20}></ImgBox>
-                            <ImgBox imgURL={img21}></ImgBox>
-                            <ImgBox imgURL={img22}></ImgBox>
-                            <ImgBox imgURL={img23}></ImgBox>
-                            <ImgBox imgURL={img24}></ImgBox>
-                            <ImgBox imgURL={img25}></ImgBox>
-                        </Line2>
+                        <Line>
+                            <ImgBox src={img01}></ImgBox>
+                            <ImgBox src={img02}></ImgBox>
+                            <Spuare src={img03}></Spuare>
+                            <ImgBox src={img04}></ImgBox>
+                            <ImgBox src={img05}></ImgBox>
+                            <ImgBox src={img06}></ImgBox>
+                            <ImgBox src={img07}></ImgBox>
+                            <Spuare src={img08}></Spuare>
+                            <ImgBox src={img09}></ImgBox>
+                            <Spuare src={img10}></Spuare>
+                            <ImgBox src={img11}></ImgBox>
+                            <ImgBox src={img12}></ImgBox>
+                            <ImgBox src={img13}></ImgBox>
+                            <ImgBox src={img14}></ImgBox>
+                            <Spuare src={img15}></Spuare>
+                            <Spuare src={img16}></Spuare>
+                            <ImgBox src={img17}></ImgBox>
+                            <ImgBox src={img18}></ImgBox>
+                            <Spuare src={img19}></Spuare>
+                            <ImgBox src={img20}></ImgBox>
+                            <Spuare src={img21}></Spuare>
+                            <ImgBox src={img22}></ImgBox>
+                            <ImgBox src={img23}></ImgBox>
+                            <Spuare src={img24}></Spuare>
+                            <ImgBox src={img25}></ImgBox>
+                        </Line>
                     </Img>
                 </Bottom>
             </div>
@@ -127,6 +125,7 @@ const Bottom = styled.div`
     width: 100%;
     height: 50%;
     text-align:center;
+    justify-content: center;
     background: linear-gradient(#FFDDAD, #FFF5BA);
 `
 const Point = styled.span`
@@ -146,25 +145,45 @@ const Mob = styled.span`
     };
 `
 const Img = styled.div`
+    position : relative;
 `
-const ImgBox = styled.div<{imgURL: string}>`
-    width: 150px;
-    height: 100%;
-    background-size: cover;
+const ImgBox = styled.img`
+    width: 160px;
+    height: 120px;
+    background-size:cover;
     background-repeat : no-repeat;
     margin-right : 40px;
-    background-image: url(${props => props.imgURL});
+    ${media.mobile}{
+        width: 120px;
+        height: 90px;
+        background-size:cover;
+        background-repeat : no-repeat;
+    };
+`
+const Spuare = styled.img`
+    width: 120px;
+    height: 120px;
+    background-size:cover;
+    background-repeat : no-repeat;
+    margin-right : 40px;
+${media.mobile}{
+    width: 90px;
+    height: 90px;
+    background-size:cover;
+    background-repeat : no-repeat;
+};
 `
 
-const Line1 = styled.div`
-    display: flex;
-    height : 150px;
-    width : 100%;
-`
-const Line2 = styled.div`
-    display: flex;
-    height : 150px;
-    width : 100%;
-    padding-top : 20px;
+const Line = styled.div`
+    position : absolute;
+    transform: translate(-50%, 18%);
+    width: 2500px;
+    line-height : 60px;
+    ${media.mobile}{
+        position : absolute;
+        transform: translate(-50%, 7%);
+        width: 1600px;
+        line-height : 60px;
+    }
 `
 export default ChocomusicIntroTextSection3;

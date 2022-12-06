@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ico_myWeb" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <style>
+            .ico-my-web-g{fill:#fff;stroke:#fff}.ico-my-web-circle-1{stroke:none}.ico-my-web-circle-2{fill:none}
+        </style>
+    </defs>
+    <g id="dot" class="ico-my-web-g" transform="translate(6.5 15.5)">
+        <circle cx="2.5" cy="2.5" r="2.5" class="ico-my-web-circle-1"/>
+        <circle cx="2.5" cy="2.5" r="2" class="ico-my-web-circle-2"/>
+    </g>
+    <g id="dot-2" class="ico-my-web-g" transform="translate(24.5 15.5)">
+        <circle cx="2.5" cy="2.5" r="2.5" class="ico-my-web-circle-1"/>
+        <circle cx="2.5" cy="2.5" r="2" class="ico-my-web-circle-2"/>
+    </g>
+    <g id="dot-3" class="ico-my-web-g" transform="translate(15.5 15.5)">
+        <circle cx="2.5" cy="2.5" r="2.5" class="ico-my-web-circle-1"/>
+        <circle cx="2.5" cy="2.5" r="2" class="ico-my-web-circle-2"/>
+    </g>
+</svg>

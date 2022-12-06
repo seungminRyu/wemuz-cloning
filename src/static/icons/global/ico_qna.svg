@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .ico-qna-path-1{stroke-linejoin:round;fill:none;stroke:#555;stroke-linecap:round}
+            .ico-qna-path-2{fill:none;stroke:#555;stroke-linecap:round}
+        </style>
+    </defs>
+    <g id="ic-qna" transform="translate(-10.824 -10.445)">
+        <path id="Icon_feather-message-square" class="ico-qna-path-1" data-name="Icon feather-message-square" d="M17.5 12.5a1.667 1.667 0 0 1-1.667 1.667h-10L2.5 17.5V4.167A1.667 1.667 0 0 1 4.167 2.5h11.666A1.667 1.667 0 0 1 17.5 4.167z" transform="translate(13.324 12.445)"/>
+        <path id="line" class="ico-qna-path-2" transform="translate(18.824 18.445)" d="M0 0h9"/>
+        <path id="line-2" data-name="line" class="ico-qna-path-2" transform="translate(18.824 20.945)" d="M0 0h9"/>
+        <path id="line-3" data-name="line" class="ico-qna-path-2" transform="translate(18.824 23.445)" d="M0 0h9"/>
+    </g>
+</svg>

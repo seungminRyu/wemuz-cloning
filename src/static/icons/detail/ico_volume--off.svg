@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <filter id="volume" x=".81" y="1.138" width="16.807" height="25.908" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="1" result="blur"/>
+            <feFlood flood-color="#333" flood-opacity=".6"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="volume-off" x="13.608" y="7.537" width="13.11" height="13.11" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="1" result="blur-2"/>
+            <feFlood flood-color="#333" flood-opacity=".6"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="ico__volume-off-28">
+        <g style="filter:url(#volume)" transform="translate(.002 .005)">
+            <path id="volume-2" data-name="volume" class="cls-2" d="M12.959 23.8a1.5 1.5 0 0 1-.767-.208L5.984 18.06H3.269a.7.7 0 0 1-.7-.711V10.24a.7.7 0 0 1 .7-.711h2.715L12.192 4.1a.69.69 0 0 1 1.185.5v18.489c0 .393-.033.711-.418.711z" transform="translate(1.24 .25)"/>
+        </g>
+        <g style="filter:url(#volume-off)" transform="translate(.002 .005)">
+            <path id="volume-off-2" data-name="volume-off" class="cls-2" d="m13.959 8.836 1.69-1.69a.6.6 0 0 0 0-.845l-.849-.845a.6.6 0 0 0-.845 0l-1.69 1.69-1.69-1.69a.6.6 0 0 0-.845 0l-.841.844a.6.6 0 0 0 0 .845l1.69 1.69-1.69 1.69a.6.6 0 0 0 0 .845l.845.845a.6.6 0 0 0 .845 0l1.69-1.69 1.69 1.69a.6.6 0 0 0 .845 0l.845-.845a.6.6 0 0 0 0-.845z" transform="translate(7.89 5.26)"/>
+        </g>
+    </g>
+</svg>

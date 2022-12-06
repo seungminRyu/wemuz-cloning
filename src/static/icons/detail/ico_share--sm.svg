@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#555;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3px}
+        </style>
+    </defs>
+    <g id="ic-share_20" data-name="ic-share 20" transform="translate(-292 -6)">
+        <g id="Icon_feather-share-2" data-name="Icon feather-share-2" transform="translate(295.5 9.301)">
+            <path id="패스_774" data-name="패스 774" class="cls-2" d="M26.315 4.907A1.907 1.907 0 1 1 24.407 3a1.907 1.907 0 0 1 1.908 1.907z" transform="translate(-14.315 -3)"/>
+            <path id="패스_775" data-name="패스 775" class="cls-2" d="M8.315 15.407A1.907 1.907 0 1 1 6.407 13.5a1.907 1.907 0 0 1 1.908 1.907z" transform="translate(-4.5 -8.707)"/>
+            <path id="패스_776" data-name="패스 776" class="cls-2" d="M26.315 25.907A1.907 1.907 0 1 1 24.407 24a1.907 1.907 0 0 1 1.908 1.907z" transform="translate(-14.315 -14.415)"/>
+            <path id="패스_777" data-name="패스 777" class="cls-2" d="m12.885 20.265 4.343 2.53" transform="translate(-9.053 -12.456)"/>
+            <path id="패스_778" data-name="패스 778" class="cls-2" d="M17.221 9.765 12.885 12.3" transform="translate(-9.053 -6.705)"/>
+        </g>
+    </g>
+</svg>

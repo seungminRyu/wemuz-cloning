@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <filter id="사각형_1386" x="2.5" y=".999" width="12" height="26" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="1" result="blur"/>
+            <feFlood flood-color="#333" flood-opacity=".6"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="사각형_1387" x="13.5" y=".999" width="12" height="26" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="1" result="blur-2"/>
+            <feFlood flood-color="#333" flood-opacity=".6"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="ico__pause-28" transform="translate(-.363 .185)">
+        <path id="ic_area" transform="translate(.363 -.185)" style="fill:none" d="M0 0h28v28H0z"/>
+        <g transform="translate(.36 -.18)" style="filter:url(#사각형_1386)">
+            <rect id="사각형_1386-2" data-name="사각형 1386" class="cls-2" width="6" height="20" rx="3" transform="translate(5.5 4)"/>
+        </g>
+        <g transform="translate(.36 -.18)" style="filter:url(#사각형_1387)">
+            <rect id="사각형_1387-2" data-name="사각형 1387" class="cls-2" width="6" height="20" rx="3" transform="translate(16.5 4)"/>
+        </g>
+    </g>
+</svg>

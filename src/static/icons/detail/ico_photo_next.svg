@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.347" height="78.695" viewBox="0 0 70.347 78.695">
+    <defs>
+        <filter id="circle" x="6.886" y="12.348" width="54" height="54" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="1" result="blur"/>
+            <feFlood flood-color="#333" flood-opacity=".8"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="scroll" x="0" y="0" width="70.347" height="78.695" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="10" result="blur-2"/>
+            <feFlood flood-color="#333" flood-opacity=".2"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .photo-next{fill:none}
+        </style>
+    </defs>
+    <g id="ic-next_default_" data-name="ic-next (default)" transform="rotate(-90 37.117 16.231)">
+        <g transform="rotate(90 37.12 16.23)" style="filter:url(#circle)">
+            <g id="circle-2" data-name="circle" transform="translate(9.89 15.35)" style="stroke:#fff;fill:rgba(255,255,255,.2)">
+                <circle cx="24" cy="24" r="24" style="stroke:none"/>
+                <circle class="photo-next" cx="24" cy="24" r="23.5"/>
+            </g>
+        </g>
+        <path id="area" class="photo-next" d="M0 0h28v28H0z"/>
+        <g transform="rotate(90 37.12 16.23)" style="filter:url(#scroll)">
+            <path id="scroll-2" data-name="scroll" d="m0 0 7.893 7.933L15.866 0" transform="rotate(-90 39.345 7.935)" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;fill:none;stroke:#fff"/>
+        </g>
+    </g>
+</svg>

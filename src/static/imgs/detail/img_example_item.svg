@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="160" viewBox="0 0 180 160">
+  <g id="그룹_2270" data-name="그룹 2270" transform="translate(17432 21940)">
+    <rect id="사각형_1258" data-name="사각형 1258" width="180" height="160" rx="14" transform="translate(-17432 -21940)" fill="#fff"/>
+    <rect id="사각형_1257" data-name="사각형 1257" width="180" height="160" rx="14" transform="translate(-17432 -21940)" fill="rgba(120,95,250,0.15)"/>
+    <g id="WEMUZ_LOGO_color" data-name="WEMUZ LOGO_color" transform="translate(-17411.994 -21874.258)">
+      <rect id="사각형_601" data-name="사각형 601" width="141" height="28" transform="translate(-0.006 0.258)" fill="#785ffa" opacity="0"/>
+      <path id="패스_553" data-name="패스 553" d="M80.719,3v9.813a4.906,4.906,0,1,1-9.813,0V3H66v9.813a9.813,9.813,0,0,0,9.813,9.813h0a9.813,9.813,0,0,0,9.813-9.813V3Z" transform="translate(26.516 1.113)" fill="#785ffa"/>
+      <path id="패스_554" data-name="패스 554" d="M101.925,7.205a2.411,2.411,0,0,0,.7-1.731A2.453,2.453,0,0,0,100.172,3H83V7.906H94.25L83.7,18.42h0a2.411,2.411,0,0,0-.7,1.731,2.446,2.446,0,0,0,2.278,2.474h17.347V17.719H91.411Z" transform="translate(33.347 1.113)" fill="#785ffa"/>
+      <path id="패스_555" data-name="패스 555" d="M65.728,3.589A7.864,7.864,0,0,0,57.317,5.18,7.878,7.878,0,0,0,44,10.885v11.74h4.906V10.885h0a2.979,2.979,0,1,1,5.951,0v7.3h0v4.437h4.906V10.885h0a2.979,2.979,0,1,1,5.951,0v7.3h0v4.437H70.62V10.885a7.878,7.878,0,0,0-4.892-7.3Z" transform="translate(17.676 1.113)" fill="#785ffa"/>
+      <g id="E" transform="translate(35.743 4.113)">
+        <path id="패스_556" data-name="패스 556" d="M46.527,5.453A2.453,2.453,0,0,0,44.074,3H25.5V7.906H44.074a2.453,2.453,0,0,0,2.453-2.453Z" transform="translate(-25.5 -3)" fill="#785ffa"/>
+        <path id="패스_557" data-name="패스 557" d="M44.074,13.5H25.5v4.906H44.074a2.453,2.453,0,0,0,0-4.906Z" transform="translate(-25.5 1.219)" fill="#785ffa"/>
+        <path id="패스_558" data-name="패스 558" d="M44.074,8.5H25.5v4.906H44.074a2.453,2.453,0,0,0,0-4.906Z" transform="translate(-25.5 -0.79)" fill="#785ffa"/>
+      </g>
+      <path id="패스_559" data-name="패스 559" d="M7.906,22.037a7.864,7.864,0,0,0,8.411-1.591A7.878,7.878,0,0,0,29.635,14.74V3H24.728V14.74h0a2.979,2.979,0,1,1-5.951,0v-7.3h0V3H13.871V14.74h0a2.979,2.979,0,1,1-5.951,0v-7.3h0V3H3V14.74a7.878,7.878,0,0,0,4.907,7.3Z" transform="translate(1.202 1.113)" fill="#785ffa"/>
+    </g>
+  </g>
+</svg>

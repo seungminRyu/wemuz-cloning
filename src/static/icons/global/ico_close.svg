@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="closeBtn" width="28" height="28" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .ico-close-path{fill:none;stroke:#afa1f7;stroke-linecap:round;stroke-width:2px}
+        </style>
+    </defs>
+    <path id="icon_area" fill="rgba(255,211,211,0)" d="M0 0h28v28H0z"/>
+    <path id="패스_525" d="M0-9L14 5" class="ico-close-path" transform="translate(7 16)"/>
+    <path id="패스_526" d="M0-2l14-14" class="ico-close-path" transform="translate(7 23)"/>
+</svg>

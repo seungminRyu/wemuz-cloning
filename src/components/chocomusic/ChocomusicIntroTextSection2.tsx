@@ -69,7 +69,6 @@ const IntroText = styled.div<{ active: boolean }>`
     justify-content: center;
     align-items: center;
     padding-top: ${({ active }) => (active ? `150px` : ``)};
-
     ${media.mobile} {
         padding-top: ${({ active }) => (active ? `100px` : ``)};
     }
@@ -97,7 +96,6 @@ const Img = styled.div<{ active: boolean }>`
     height: 450px;
     background-size: cover;
     background-image: ${({ active }) => (active ? "" : `url(${introText1})`)};
-
     ${media.mobile} {
         background-image: ${({ active }) =>
             active ? "" : `url(${introMob1})`};
@@ -110,7 +108,6 @@ const Footer = styled.div`
     position: absolute;
     text-align: center;
     bottom: 0px;
-
     ${media.mobile} {
         flex-direction: column;
         height: 250px;
@@ -124,7 +121,6 @@ const Box1 = styled.div`
     width: 220px;
     height: 130px;
     border: 1px solid ${palette.gray2};
-
     ${media.mobile} {
         display: none;
     }
@@ -140,7 +136,6 @@ const User = styled.div`
     width: 360px;
     height: 130px;
     border: 1px solid ${palette.gray2};
-
     ${media.mobile} {
         width: 100%;
     }
@@ -156,7 +151,6 @@ const With = styled.div`
     width: 360px;
     height: 130px;
     border: 1px solid ${palette.gray2};
-
     ${media.mobile} {
         width: 100%;
     }
@@ -172,7 +166,6 @@ const Like = styled.div`
     width: 360px;
     height: 130px;
     border: 0.25px solid ${palette.gray2};
-
     ${media.mobile} {
         width: 100%;
     }
@@ -184,7 +177,6 @@ const Box2 = styled.div`
     height: 130px;
     width: 220px;
     border: 1px solid ${palette.gray2};
-
     ${media.mobile} {
         display: none;
     }

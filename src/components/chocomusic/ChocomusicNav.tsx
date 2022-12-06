@@ -4,9 +4,9 @@ import palette from "../../lib/styles/palette";
 
 import { ReactComponent as ChocomusicLogo } from "../../static/imgs/global/img_chocomusic_logo.svg";
 
-export type ChocomusicNavProp = {};
+export type ChocomusicNavProps = {};
 
-function ChocomusicNav(props: ChocomusicNavProp) {
+function ChocomusicNav(props: ChocomusicNavProps) {
     return (
         <Block>
             <Inner>

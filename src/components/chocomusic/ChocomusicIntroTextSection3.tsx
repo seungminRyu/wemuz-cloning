@@ -29,11 +29,11 @@ import img23 from "../../static/imgs/chocomusic/img-23.png";
 import img24 from "../../static/imgs/chocomusic/img-24.png";
 import img25 from "../../static/imgs/chocomusic/img-25.png";
 
-export type ChocomusicIntroTextSection3Prop = {
+export type ChocomusicIntroTextSection3Props = {
     active: boolean;
 };
 
-function ChocomusicIntroTextSection3(props: ChocomusicIntroTextSection3Prop) {
+function ChocomusicIntroTextSection3(props: ChocomusicIntroTextSection3Props) {
     const { active } = props;
     return (
         <Block>

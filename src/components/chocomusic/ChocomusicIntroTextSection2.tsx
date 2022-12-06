@@ -7,11 +7,11 @@ import introImg2 from "../../static/imgs/chocomusic/introText2.png";
 import introMob1 from "../../static/imgs/chocomusic/introMob1.png";
 import introMob2 from "../../static/imgs/chocomusic/introMob2.png";
 
-export type ChocomusicIntroTextSection2Prop = {
+export type ChocomusicIntroTextSection2Props = {
     active: boolean;
 };
 
-function ChocomusicIntroTextSection2(props: ChocomusicIntroTextSection2Prop) {
+function ChocomusicIntroTextSection2(props: ChocomusicIntroTextSection2Props) {
     const { active } = props;
 
     return (

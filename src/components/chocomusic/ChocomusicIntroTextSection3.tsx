@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import media from "../../lib/styles/media";
 import palette from "../../lib/styles/palette";
+
 import iconimg from "../../static/imgs/chocomusic/iconimg.png";
 import img01 from "../../static/imgs/chocomusic/img-01.png";
 import img02 from "../../static/imgs/chocomusic/img-02.png";
@@ -39,8 +40,14 @@ function ChocomusicIntroTextSection3(props: ChocomusicIntroTextSection3Prop) {
             <div>
                 <Top>
                     <Item>
-                    <Icon></Icon>
-                    <Text>지금도 초코뮤직은<Mob></Mob> 수많은 아티스트, 다양한 공간과 함께<Mob></Mob><Enter></Enter><Point>이전에 없던 예술 문화</Point>를<Mob></Mob> 창조하고 있습니다.</Text>
+                        <Icon></Icon>
+                        <Text>
+                            지금도 초코뮤직은<Mob></Mob> 수많은 아티스트, 다양한
+                            공간과 함께<Mob></Mob>
+                            <Enter></Enter>
+                            <Point>이전에 없던 예술 문화</Point>를<Mob></Mob>{" "}
+                            창조하고 있습니다.
+                        </Text>
                     </Item>
                 </Top>
                 <Bottom>
@@ -80,110 +87,110 @@ function ChocomusicIntroTextSection3(props: ChocomusicIntroTextSection3Prop) {
 }
 
 const Block = styled.div`
-    position:relative;
+    position: relative;
     height: 100%;
     background-color: ${palette.white0};
-    overflow-x : hidden;
+    overflow-x: hidden;
 `;
 
 const Top = styled.div`
-    display:flex;
+    display: flex;
     position: absolute;
-    top:0px;
+    top: 0px;
     width: 100%;
     height: 50%;
-    text-align:center;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
-`
+`;
 const Text = styled.div`
     color: ${palette.black0};
     line-height: 35px;
     font-size: 25px;
-    font-weight:bold;
-    ${media.mobile}{
+    font-weight: bold;
+    ${media.mobile} {
         white-space: normal;
         height: 3.6em;
         word-wrap: break-word;
         display: -webkit-box;
         -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
-    };
-`
+    } ;
+`;
 const Icon = styled.div`
     width: 60px;
-    height:60px;
+    height: 60px;
     background-size: cover;
-    margin:auto;
+    margin: auto;
     margin-bottom: 30px;
     background-image: url(${iconimg});
-`
+`;
 const Bottom = styled.div`
-    display:flex;
+    display: flex;
     position: absolute;
-    bottom:0px;
+    bottom: 0px;
     width: 100%;
     height: 50%;
-    text-align:center;
+    text-align: center;
     justify-content: center;
-    background: linear-gradient(#FFDDAD, #FFF5BA);
-`
+    background: linear-gradient(#ffddad, #fff5ba);
+`;
 const Point = styled.span`
-    color:#FF9600;
-`
+    color: #ff9600;
+`;
 const Item = styled.div`
-${media.mobile}{
-    padding-bottom: 60px;
-}
-`
+    ${media.mobile} {
+        padding-bottom: 60px;
+    }
+`;
 const Enter = styled.span`
-    display:block;
-`
+    display: block;
+`;
 const Mob = styled.span`
-    ${media.mobile}{
-        display:block;
-    };
-`
+    ${media.mobile} {
+        display: block;
+    } ;
+`;
 const Img = styled.div`
-    position : relative;
-`
+    position: relative;
+`;
 const ImgBox = styled.img`
     width: 160px;
     height: 120px;
-    background-size:cover;
-    background-repeat : no-repeat;
-    margin-right : 40px;
-    ${media.mobile}{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 40px;
+    ${media.mobile} {
         width: 120px;
         height: 90px;
-        background-size:cover;
-        background-repeat : no-repeat;
-    };
-`
+        background-size: cover;
+        background-repeat: no-repeat;
+    } ;
+`;
 const Spuare = styled.img`
     width: 120px;
     height: 120px;
-    background-size:cover;
-    background-repeat : no-repeat;
-    margin-right : 40px;
-${media.mobile}{
-    width: 90px;
-    height: 90px;
-    background-size:cover;
-    background-repeat : no-repeat;
-};
-`
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 40px;
+    ${media.mobile} {
+        width: 90px;
+        height: 90px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    } ;
+`;
 
 const Line = styled.div`
-    position : absolute;
+    position: absolute;
     transform: translate(-50%, 18%);
     width: 2500px;
-    line-height : 60px;
-    ${media.mobile}{
-        position : absolute;
+    line-height: 60px;
+    ${media.mobile} {
+        position: absolute;
         transform: translate(-50%, 7%);
         width: 1600px;
-        line-height : 60px;
+        line-height: 60px;
     }
-`
+`;
 export default ChocomusicIntroTextSection3;

@@ -9,6 +9,7 @@ import ChocomusicPartners from "../components/chocomusic/ChocomusicPartners";
 import useToggle from "../lib/hooks/useToggle";
 import palette from "../lib/styles/palette";
 import ChocomusicArticles from "../components/chocomusic/ChocomusicArticles";
+import ChocomusicFooter from "../components/chocomusic/ChocomusicFooter";
 
 function Chocomusic() {
     const [sectionActive, toggleSectionActive] = useToggle(false);
@@ -23,6 +24,7 @@ function Chocomusic() {
             <ChocomusicJobs active={sectionActive} />
             <ChocomusicPartners active={sectionActive} />
             <ChocomusicArticles />
+            <ChocomusicFooter />
             <StateSwitcher>
                 <SwitchBtn onClick={toggleSectionActive}>
                     Switch State

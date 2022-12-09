@@ -37,7 +37,6 @@ function Chocomusic() {
 const Block = styled.div`
     position: relative;
     height: 100%;
-    background-color: ${palette.purple5};
     overflow: scroll;
 `;
 

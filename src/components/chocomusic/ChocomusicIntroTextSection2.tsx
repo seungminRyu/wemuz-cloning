@@ -1,9 +1,8 @@
 import styled from "styled-components";
 import media from "../../lib/styles/media";
 import palette from "../../lib/styles/palette";
-
-import introImg1 from "../../static/imgs/chocomusic/introText1.png";
-import introImg2 from "../../static/imgs/chocomusic/introText2.png";
+import introText1 from "../../static/imgs/chocomusic/introText1.png";
+import introText2 from "../../static/imgs/chocomusic/introText2.png";
 import introMob1 from "../../static/imgs/chocomusic/introMob1.png";
 import introMob2 from "../../static/imgs/chocomusic/introMob2.png";
 
@@ -29,16 +28,16 @@ function ChocomusicIntroTextSection2(props: ChocomusicIntroTextSection2Props) {
                     <Footer>
                         <Box1></Box1>
                         <User>
-                            <Title2>위뮤즈 가입자 수</Title2>
+                            <Title2>뮤지션 가입자 수</Title2>
                             <Text2>500명</Text2>
                         </User>
                         <With>
-                            <Title2>함께한 공연 수</Title2>
-                            <Text2>500회</Text2>
+                            <Title2>협업 공간</Title2>
+                            <Text2>500개</Text2>
                         </With>
                         <Like>
-                            <Title2>평균 공연 만족도</Title2>
-                            <Text2>100%</Text2>
+                            <Title2>공간 일매출 증가</Title2>
+                            <Text2>500%</Text2>
                         </Like>
                         <Box2></Box2>
                     </Footer>
@@ -52,7 +51,7 @@ const Block = styled.section<{ active: boolean }>`
     height: 100%;
     background-size: contain;
     background: ${({ active }) =>
-        active ? `url(${introImg2})` : palette.white0};
+        active ? `url(${introText2})` : palette.white0};
     transition: background-color 0.2s;
     background-size: cover;
     background-position: center;
@@ -70,7 +69,6 @@ const IntroText = styled.div<{ active: boolean }>`
     justify-content: center;
     align-items: center;
     padding-top: ${({ active }) => (active ? `150px` : ``)};
-
     ${media.mobile} {
         padding-top: ${({ active }) => (active ? `100px` : ``)};
     }
@@ -97,8 +95,7 @@ const Img = styled.div<{ active: boolean }>`
     width: 100%;
     height: 450px;
     background-size: cover;
-    background-image: ${({ active }) => (active ? "" : `url(${introImg1})`)};
-
+    background-image: ${({ active }) => (active ? "" : `url(${introText1})`)};
     ${media.mobile} {
         background-image: ${({ active }) =>
             active ? "" : `url(${introMob1})`};
@@ -111,7 +108,6 @@ const Footer = styled.div`
     position: absolute;
     text-align: center;
     bottom: 0px;
-
     ${media.mobile} {
         flex-direction: column;
         height: 250px;
@@ -125,7 +121,6 @@ const Box1 = styled.div`
     width: 220px;
     height: 130px;
     border: 1px solid ${palette.gray2};
-
     ${media.mobile} {
         display: none;
     }
@@ -141,7 +136,6 @@ const User = styled.div`
     width: 360px;
     height: 130px;
     border: 1px solid ${palette.gray2};
-
     ${media.mobile} {
         width: 100%;
     }
@@ -157,7 +151,6 @@ const With = styled.div`
     width: 360px;
     height: 130px;
     border: 1px solid ${palette.gray2};
-
     ${media.mobile} {
         width: 100%;
     }
@@ -173,7 +166,6 @@ const Like = styled.div`
     width: 360px;
     height: 130px;
     border: 0.25px solid ${palette.gray2};
-
     ${media.mobile} {
         width: 100%;
     }
@@ -185,7 +177,6 @@ const Box2 = styled.div`
     height: 130px;
     width: 220px;
     border: 1px solid ${palette.gray2};
-
     ${media.mobile} {
         display: none;
     }

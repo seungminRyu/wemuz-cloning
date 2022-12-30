@@ -192,5 +192,10 @@ const Line = styled.div`
         width: 1600px;
         line-height: 60px;
     }
+<<<<<<< HEAD
 `;
 export default ChocomusicIntroTextSection3;
+=======
+`
+export default ChocomusicIntroTextSection3;
+>>>>>>> c181c9a66338efefbd8b122369803825403facfd

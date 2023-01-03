@@ -27,6 +27,7 @@ function ChocomusicIntroTextSection1(props: ChocomusicIntroTextSection1Props) {
                 {active && (
                     <Footer>
                         <Box1></Box1>
+                    
                         <User>
                             <Title2>위뮤즈 가입자 수</Title2>
                             <Text2>500명</Text2>
@@ -101,14 +102,17 @@ const Img = styled.div<{ active: boolean }>`
 `;
 
 const Footer = styled.div`
-    display: flex;
+    display: grid;
+    position:absolute;
+    bottom:0px;
     width: 100%;
-    position: absolute;
-    text-align: center;
+    height : 20%;
+    grid-template-columns : 1fr 2fr 2fr 2fr 1fr;
     bottom: 0px;
     ${media.mobile} {
+        grid-template-columns : 1fr;
         flex-direction: column;
-        height: 300px;
+        height: 40%;
     }
 `;
 
@@ -116,8 +120,8 @@ const Box1 = styled.div`
     background-color: ${palette.black1};
     opacity: 0.8;
     backdrop-filter: blur(15px);
-    width: 220px;
-    height: 130px;
+    width: 100%;
+    height: 100%;
     border: 1px solid ${palette.gray2};
     ${media.mobile} {
         display: none;
@@ -131,8 +135,8 @@ const User = styled.div`
     align-items: center;
     opacity: 0.8;
     backdrop-filter: blur(15px);
-    width: 360px;
-    height: 130px;
+    width: 100%;
+    height: 100%;
     border: 1px solid ${palette.gray2};
     ${media.mobile} {
         width: 100%;
@@ -146,8 +150,8 @@ const With = styled.div`
     align-items: center;
     opacity: 0.8;
     backdrop-filter: blur(15px);
-    width: 360px;
-    height: 130px;
+    width: 100%;
+    height: 100%;
     border: 1px solid ${palette.gray2};
     ${media.mobile} {
         width: 100%;
@@ -161,8 +165,8 @@ const Like = styled.div`
     align-items: center;
     opacity: 0.8;
     backdrop-filter: blur(15px);
-    width: 360px;
-    height: 130px;
+    width: 100%;
+    height: 100%;
     border: 0.25px solid ${palette.gray2};
     ${media.mobile} {
         width: 100%;
@@ -172,8 +176,8 @@ const Box2 = styled.div`
     background-color: ${palette.black1};
     opacity: 0.8;
     backdrop-filter: blur(15px);
-    height: 130px;
-    width: 220px;
+    height: 100%;
+    width: 100%;
     border: 1px solid ${palette.gray2};
     ${media.mobile} {
         display: none;

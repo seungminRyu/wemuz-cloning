@@ -9,8 +9,9 @@ function ChocomusicArticles(props: ChocomusicArticlesProps) {
     return (
         <Block>
             <div>
-                <Title>언론 보도</Title>
                 <NewsBlock>
+                <Title>언론 보도</Title>
+                <Empty></Empty>
                     <News>
                         <Inner>
                                 <Issue>
@@ -68,29 +69,42 @@ const Block = styled.div`
 const Title = styled.h1`
     color : ${palette.black0};
     font-size : 25px;
-    padding-left : 200px;
     padding-top : 90px;
     padding-bottom : 40px;
     font-weight : 800;
     ${media.mobile}{
         font-size : 20px;
-        padding-left : 40px;
         padding-top : 80px;
+        font-weight : 800;
+        padding-bottom : 10px;
     }
 `
+
 const NewsBlock = styled.div`
     display : grid;
-    width : 1130px;
-    grid-template-columns : 550px 550px;
+    width : 80%;
+    grid-template-columns : 1fr 1fr;
     row-gap : 30px;
     column-gap : 20px;
     margin : auto;
     ${media.mobile}{
         display : grid;
-        width : 400px;
-        grid-template-columns : 400px;
+        width : 40vw;
+        grid-template-columns : 1fr;
         row-gap : 20px;
+        margin : auto;
+    }
+`
+const Empty = styled.div`
+    display : grid;
+    align-items : center;
+    background-color:transparent;
+    width : 40vw;   
+    height : 1px;
+    ${media.mobile}{
+        display : grid;
         align-items : center;
+        width : 40vw;
     }
 `
 const News = styled.div`
@@ -98,14 +112,15 @@ const News = styled.div`
     align-items : center;
     background-color : ${palette.white0};
     border-radius : 10px;
-    width : 550px;
-    height : 90px;
+    grid-template-columns : 1fr 1fr;
+    width : 40vw;
+    height : 70px;
     border : 1px solid ${palette.gray3};
     ${media.mobile}{
         display : grid;
-        align-items : center;
-        width : 400px;
-        height : 80px;
+        grid-template-columns : 1fr;
+        width : 40vw;
+        margin : auto;
     }
 `
 const Newsmedia = styled.div`
@@ -113,8 +128,8 @@ const Newsmedia = styled.div`
     align-items : center;
     background-color : ${palette.white0};
     border-radius : 10px;
-    width : 550px;
-    height : 90px;
+    width : 100%;
+    height : 70px;
     border : 1px solid ${palette.gray3};
     ${media.mobile}{
         display : none;
@@ -150,14 +165,19 @@ const Text = styled.h3`
     font-size : 15px;
     font-weight : bold;
     padding-left : 7px;
-    width : 465px;
+    width : 37vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break:break-all;
     ${media.mobile}{
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        word-break:break-all
+        word-break:break-all;
+        font-weight : 800;
         font-size : 12px;
-        width : 340px;
+        width : 100%;
         heigh : 10px;
     }
 `
@@ -165,15 +185,16 @@ const Issue = styled.div`
     display : grid;
     align-items : center;
     margin-left : 10px;
+    width : 70%;
 `
 const Next = styled.button`
-    display : block;
     width : 15px;
     height : 15px;
-    background-size : cover;
+    background-size : contain;
+    background-repeat : no-repeat;
+    margin-left : auto;
     margin-top : auto;
     margin-bottom : auto;
-    margin-left : 40px;
     background-image : url(${nextimg});
     ${media.mobile}{
         margin-left : 20px;
@@ -241,14 +262,16 @@ const Num = styled.button`
 const Left = styled.button`
     width : 15px;
     height : 15px;
-    background-size : cover;
+    background-size : contain;
+    background-repeat : no-repeat;
     transform: scaleX(-1);
     background-image : url(${nextimg});
 `
 const Right = styled.button`
     width : 15px;
     height : 15px; 
-    background-size : cover;
+    background-size : contain;
+    background-repeat : no-repeat;
     background-image : url(${nextimg});
 `
 export default ChocomusicArticles;

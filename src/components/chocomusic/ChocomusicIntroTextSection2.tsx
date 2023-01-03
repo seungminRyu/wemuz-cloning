@@ -1,16 +1,17 @@
 import styled from "styled-components";
 import media from "../../lib/styles/media";
 import palette from "../../lib/styles/palette";
-import introImg1 from "../../static/imgs/chocomusic/IntroText1.png";
-import introImg2 from "../../static/imgs/chocomusic/IntroText2.png";
-import introMob1 from "../../static/imgs/chocomusic/IntroMob1.png";
-import introMob2 from "../../static/imgs/chocomusic/IntroMob2.png";
 
-export type ChocomusicIntroTextSection2Prop = {
+import introImg1 from "../../static/imgs/chocomusic/introText1.png";
+import introImg2 from "../../static/imgs/chocomusic/introText2.png";
+import introMob1 from "../../static/imgs/chocomusic/introMob1.png";
+import introMob2 from "../../static/imgs/chocomusic/introMob2.png";
+
+export type ChocomusicIntroTextSection2Props = {
     active: boolean;
 };
 
-function ChocomusicIntroTextSection2(props: ChocomusicIntroTextSection2Prop) {
+function ChocomusicIntroTextSection2(props: ChocomusicIntroTextSection2Props) {
     const { active } = props;
 
     return (

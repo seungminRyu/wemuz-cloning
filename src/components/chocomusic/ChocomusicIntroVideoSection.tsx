@@ -2,9 +2,9 @@ import { useEffect, useRef } from "react";
 import styled from "styled-components";
 import palette from "../../lib/styles/palette";
 
-export type ChocomusicIntroVideoSectionProp = {};
+export type ChocomusicIntroVideoSectionProps = {};
 
-function ChocomusicIntroVideoSection(props: ChocomusicIntroVideoSectionProp) {
+function ChocomusicIntroVideoSection(props: ChocomusicIntroVideoSectionProps) {
     const videoRef = useRef<HTMLVideoElement | null>(null);
 
     useEffect(() => {

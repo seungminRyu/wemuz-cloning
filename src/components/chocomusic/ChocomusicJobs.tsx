@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import palette from "../../lib/styles/palette";
 
-export type ChocomusicJobsProp = {
+export type ChocomusicJobsProps = {
     active: boolean;
 };
 
-function ChocomusicJobs(props: ChocomusicJobsProp) {
+function ChocomusicJobs(props: ChocomusicJobsProps) {
     const { active } = props;
     return (
         <Block>
